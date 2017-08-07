@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+* {
+	box-sizing: border-box;
+}
+
+p.main {
+	font-family: Share, sans-serif;
+	font-size: 18px;
+	color: black;
+	width: 60%;
+	float: left;
+}
+
+p.sidebar {
+	font-family: Share, sans-serif;
+	font-size: 14px;
+	color: black;
+	background-color: wheat;
+	border: 1px solid black;
+	width: 36%;
+	position: relative;
+	float: right;
+}
+
+body {
+	background-color: #FFF8E7; /* Cosmic Latte */
+}
+
+h1 {
+	font-family: "Fascinate Inline", sans-serif;
+	font-size: 28px;
+	color: FireBrick;
+	width: 100%;
+	padding: 1em;
+}
+
+.talkText {
+	font-family: "Nova Flat";
+	color: black;
+	font-size: 15px;
+}
+.talkBlock {
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	display: block;
+	border-style: groove;
+	border-width: medium;
+	boeder-color: BurlyWood;
+	border-radius: 1rem;
+	clear: left;
+}
+.talkHead {
+	font-family: Diplomata, serif;
+	font-size: 20px;
+	color: FireBrick;
+	padding: 0.5em 0.5em;
+/*	border: solid black 1px;
+	background-color: WhiteSmoke;
+	opacity: 0.9; */
+}
+
+.req {
+	font-family: Diplomata, serif;
+	font-size: 12px;
+	color: FireBrick;
+}
+
+.active {
+	color: green;
+}
+
+.footer {
+	width: 100%;
+	margin: auto;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: black;
+	clear: left;
+}
