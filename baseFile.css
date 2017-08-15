@@ -9,6 +9,7 @@ p.main {
 	color: black;
 	width: 60%;
 	float: left;
+	margin-top: 0px;
 }
 
 p.sidebar {
@@ -22,6 +23,10 @@ p.sidebar {
 	float: right;
 }
 
+em.color {
+	color: FireBrick;
+	font-style: normal;
+}
 body {
 	background-color: #FFF8E7; /* Cosmic Latte */
 }
